@@ -1,0 +1,23 @@
+name: formflow
+description: A Flutter package for building typed multi-step forms with validation, persistence, and progress tracking.
+version: 0.1.0
+homepage: https://github.com/dilo-studios/formflow
+repository: https://github.com/dilo-studios/formflow
+
+environment:
+  sdk: ^3.12.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/
